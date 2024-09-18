@@ -25,6 +25,7 @@ public class LISTA_VETOR_14_NATA {
         System.out.println("Digite a temperatura média de cada dia do ano:");
         for (int i = 0; i < temperaturas.length; i++) {
             System.out.println("Dia " + (i + 1) + ":");
+            //temperaturas[i] = read.nextDouble();
             temperaturas[i] = 16.0 + (36.0 - 16.0) * random.nextDouble();
             somaTemperaturas += temperaturas[i];
         }
